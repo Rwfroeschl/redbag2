@@ -23,6 +23,7 @@ export default function EditSponsorForm({ open, handleClose, sponsor }){
     const [form_phone, setFormPhone] = useState(sponsor.Phone);
     const [form_ya, setFormYA] = useState(sponsor.YearsActive);
     const [generalError, setGeneralError] = useState('');
+    console.log("sponsor", sponsor)
 
     const resetValues = (sponsor) => {
         setFormFirstName(sponsor.FirstName);
