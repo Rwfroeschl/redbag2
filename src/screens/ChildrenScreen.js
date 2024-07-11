@@ -138,7 +138,7 @@ export default function ChildrenScreen () {
         rows= {child_data.listChildren.items}
 
         columns={[
-          { field: 'RBL',         headerName: 'RBL', flex: .8,
+          { field: 'RBL',         headerName: 'RBL', flex: .5,
             valueGetter: (params) => {
               if(params.row.RBL) {return(params.row.RBL.LastName);}
               return "";           
@@ -146,13 +146,13 @@ export default function ChildrenScreen () {
           },
           { field: 'ChildID',     headerName: 'ID', flex: .4 },
           { field: 'Firstname',   headerName: 'First Name', flex: .5 },
-          { field: 'Gender',      headerName: 'Gender', flex: .2 },
+          { field: 'Gender',      headerName: 'Gender', flex: .4 },
           { field: 'Age',         headerName: 'Age', type: 'number', flex: .2},
-          { field: 'ShirtSize',   headerName: 'Shirt Size', flex: .5 },
+          /*{ field: 'ShirtSize',   headerName: 'Shirt Size', flex: .5 },
           { field: 'PantSize',    headerName: 'Pant Size', flex: .5 },
-          { field: 'ShoeSize',    headerName: 'Shoe Size', flex: .5 },
-          { field: 'Siblings',    headerName: 'Siblings', flex: .5 },
-          { field: 'Sponsor', headerName: 'Sponsor', flex: 1.3,
+          { field: 'ShoeSize',    headerName: 'Shoe Size', flex: .5 },*/
+          { field: 'Siblings',    headerName: 'Siblings', flex: .7 },
+          { field: 'Sponsor', headerName: 'Sponsor', flex: 1,
             valueGetter: (params) => {
               if(params.row.Sponsor) {
                 return(
