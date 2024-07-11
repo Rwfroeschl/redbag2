@@ -148,9 +148,9 @@ export default function ChildrenScreen () {
           { field: 'Firstname',   headerName: 'First Name', flex: .5 },
           { field: 'Gender',      headerName: 'Gender', flex: .4 },
           { field: 'Age',         headerName: 'Age', type: 'number', flex: .2},
-          /*{ field: 'ShirtSize',   headerName: 'Shirt Size', flex: .5 },
+          { field: 'ShirtSize',   headerName: 'Shirt Size', flex: .5 },
           { field: 'PantSize',    headerName: 'Pant Size', flex: .5 },
-          { field: 'ShoeSize',    headerName: 'Shoe Size', flex: .5 },*/
+          { field: 'ShoeSize',    headerName: 'Shoe Size', flex: .5 },
           { field: 'Siblings',    headerName: 'Siblings', flex: .7 },
           { field: 'Sponsor', headerName: 'Sponsor', flex: 1,
             valueGetter: (params) => {
