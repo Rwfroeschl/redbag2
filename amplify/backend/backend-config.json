@@ -11,8 +11,9 @@
           ],
           "defaultAuthentication": {
             "apiKeyConfig": {
-              "apiKeyExpirationDays": 30,
-              "description": "api key description"
+              "apiKeyExpirationDate": "2025-07-28T18:26:47.851Z",
+              "apiKeyExpirationDays": 365,
+              "description": "k10's api key 7-28"
             },
             "authenticationType": "API_KEY"
           }

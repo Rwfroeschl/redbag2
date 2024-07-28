@@ -13,7 +13,7 @@ const client = new ApolloClient({
   uri: "https://bttl34e7ejbtbg3fs5y4qcz364.appsync-api.us-east-1.amazonaws.com/graphql",
   cache: new InMemoryCache(),
   headers: {
-    'X-Api-Key': "da2-3rot2pwcd5fdpibb5irwrtnsuy"
+    'X-Api-Key': "da2-fm76fw4j65dgvo43wkyk5ocym4"
   },
   connectToDevTools: true
 });
