@@ -19,5 +19,12 @@
         "redbagbill": {}
       }
     }
+  },
+  "redbag": {
+    "categories": {
+      "auth": {
+        "redbagbill65083cf0": {}
+      }
+    }
   }
 }
